@@ -1,6 +1,11 @@
-# Configuration du Template
+# Aperçu du Template
 
-# Pages
+> [!IMPORTANT]
+>💡 Pour réaliser la maquette d'un dossier, nous utilisons un template Figma. Ce template a longtemps évoluer pour à la fois offrir une grande liberté de design mais aussi, respecter les contraintes imposer par le moteur front.
+>La version actuelle du fichier template est **2.2.1**. Le fichier est disponible ici : [Template - Nouveau Projet - v2.2.1](https://www.figma.com/design/Tw24ucDoIAP6PsiNn3q4AH/Template---Nouveau-Projet---v2.2.1?m=auto&t=kDqoJ0FsfXUU4THx-1).
+>Il nous sert de base pour démarrer toutes nos maquettes.
+
+## Pages
 
 Le template se décompose en plusieurs pages.
 
@@ -18,25 +23,19 @@ La page **`Export pour Intégration`** propose les tailles d’exports pour les 
 
 La page **`Sections`** contient une partie des sections que l’on retrouve sur la plupart de nos sites. Ces sections utilisent déjà les composants de la page Composant et sont donc rapide d’utilisation. Elles peuvent être copiés directement sur les page du site. Attention toutefois, certaines utilisent leurs propres composants (cards, toggles etc), il sera alors plus simple de couper/coller ces sections, pour pouvoir éditer ces composants selon leurs contenus.
 
-# Variables
+## Variables
 
 Les variables définissent certaines informations ou valeurs qui vont faciliter le design de la maquette. Certaines devront être définies avec les informations propres au dossier (ex : nom du client, téléphone, couleurs etc) tandis que d’autres sont propres au moteur front (ex : largeurs de colonnes ou espacements)
 
-<aside>
-👁️‍🗨️ Pour accéder au panneau et pouvoir modifier les variables, il est nécessaire qu’aucun calque ne soit sélectionné. Le panneau “Local variable” se trouve dans la partie supérieure du panneau latéral droit :
-
-</aside>
-
-![Capture d’écran 2024-07-11 à 12.28.48.png](imgs/Capture_decran_2024-07-11_a_12.28.48.png)
+> [!NOTE]
+> Pour accéder au panneau et pouvoir modifier les variables, il est nécessaire qu’aucun calque ne soit sélectionné. Le panneau “Local variable” se trouve dans la partie supérieure du panneau latéral droit
 
 Une fois le panneau ouvert, les variables se présentent ainsi :
 
 ![Capture d’écran 2024-07-11 à 12.27.02.png](imgs/Capture_decran_2024-07-11_a_12.27.02.png)
 
-<aside>
-👁️‍🗨️ Pour modifier les variables, on édite le contenu du champs “Value” correspondant.
-
-</aside>
+> [!NOTE]
+> Pour modifier les variables, on édite le contenu du champs “Value” correspondant.
 
 On peut alors renseigner les **informations** de base telles que le nom, le mail etc, puis les différentes pages qui formeront la navigation (**pagination**).
 
@@ -44,12 +43,10 @@ Parfois, on doit ajouter des pages ou d’autres informations telles qu’un sec
 
 Toutes ces valeurs vont servir à remplir le header et le footer automatiquement.
 
-<aside>
-🚨 Pour le footer, il faudra renseigner l’adresse postale du client ainsi que ses horaires, qui ne sont pas variabilisé. (On ne peux pas faire de retour à la ligne dans la value des variables, dommage)
+> [!CAUTION]
+> Pour le footer, il faudra renseigner l’adresse postale du client ainsi que ses horaires, qui ne sont pas variabilisé. (On ne peux pas faire de retour à la ligne dans la value des variables, dommage)
 
-</aside>
-
-## Les couleurs (Projet)
+### Les couleurs (Projet)
 
 ![Capture d’écran 2024-07-11 à 14.13.22.png](imgs/Capture_decran_2024-07-11_a_14.13.22.png)
 
@@ -63,7 +60,7 @@ Les couleurs `mc`, `sc`, `tc` correspondent aux couleurs du clients, et peuvent 
 
 `mcl`, `mcd`, `scl`, `scd`, `tcl`, `tcd` correspondent à des variantes de `mc`, `sc`, `tc` ; *l pour lighten et d pour darken.*
 
-## Les Utiles (Projets)
+### Les Utiles (Projets)
 
 ![Capture d’écran 2024-07-11 à 14.32.58.png](imgs/Capture_decran_2024-07-11_a_14.32.58.png)
 
@@ -73,28 +70,25 @@ Ainsi `Radius Bouton` et `Radius BDD` permettent de définir l’arrondis appliq
 
 La variable `stroke` permet de définir une taille de bordure ou de trait, comme ceux présents dans le filet  sous les titres.
 
-<aside>
-💡 On voit sur la capture précédente que le `Radius Bouton` contient une autre variable en tant que valeur. C’est ce que Figma appelle un alias. 
-Pour en créer un, on fait un clic droit sur la valeur à modifier et “Create Alias” ou “Clear Alias” selon le cas et l’on va chercher la variable désirée.
+> [!NOTE]
+> On voit sur la capture précédente que le `Radius Bouton` contient une autre variable en tant que valeur. C’est ce que Figma appelle un alias. 
+> Pour en créer un, on fait un clic droit sur la valeur à modifier et “Create Alias” ou “Clear Alias” selon le cas et l’on va chercher la variable désirée.
 
-</aside>
 
-## Les Polices (Projets)
+### Les Polices (Projets)
 
 Les variables de Polices permettent de gérer les fonts utilisées pour la maquette. 
 
 `mf`, `sf` et `tf` doivent comporter les noms des fonts, tels que la liste des polices de Figma les affiche (attention à l’orthographe). Communément, `mf` *(pour main-font)* correspond à la police des textes par défaut et `sf` *(pour second-font)* à celle des titres. `tf` lui est facultatif mais permet d’ajouter au besoin un troisième font *(third-font)*.
 
-<aside>
-☝ Si une variable de police n’a pas besoin d’être définie, comme `tf` par exemple, elle prendra la value Aucune.
-
-</aside>
+> [!NOTE]
+> Si une variable de police n’a pas besoin d’être définie, comme `tf` par exemple, elle prendra la value Aucune.
 
 `rg` et `bd` définissent les graisses utilisées respectivement pour les textes par défaut et en gras. Là encore, attention à l’orthographe des values, d’autant que certaines fonts n’ont pas forcément une version semibold ou extrabold par exemple.
 
 `sz` et `lh` définissent la taille et l’interlignage de base utilisés pour la maquette. Elles sont utilisées dans les styles de paragraphes.
 
-## Les Variables Défaut
+### Les Variables Défaut
 
 Les variables qui composent le groupe Défaut sont définies selon la partie front du moteur utilisé par les intégrateurs. 
 
@@ -110,13 +104,10 @@ Les variables de **Radius** fixent des valeurs absolues utiles pour créer rapid
 
 **Contenu de Bouton** identifie les mots récurrents que l’on à aperçu sur l’ensemble de notre production. Il peuvent être utilisés en variable de contenu sur les calque de texte des boutons.
 
-# Styles de Texte
+## Styles de Texte
 
-<aside>
-👁️‍🗨️ Les styles de texte sont accessibles 
-via le panneau droit de Figma. (lorsqu’aucun calque n’est sélectionné).
-
-</aside>
+> [!NOTE]
+> Les styles de texte sont accessibles via le panneau droit de Figma. (lorsqu’aucun calque n’est sélectionné).
 
 Ils permettent de définir l’aspect des différents éléments textuels du site (paragraphes, H1, H2 etc). Ainsi, ils sont organisés selon leur contexte d’utilisation (Slider, Titres etc). 
 
@@ -134,7 +125,7 @@ En sélectionnant directement un calque utilisant un style de texte, on peut éd
 
 ![Capture d’écran 2024-07-11 à 15.39.25.png](imgs/Capture_decran_2024-07-11_a_15.39.25.png)
 
-## Batch Styler
+### Batch Styler
 
 Pour pouvoir modifier plusieurs styles à la fois, on utilise le plugin **Batch Styler**, accessible via le menu des plugins :
 
@@ -144,18 +135,18 @@ Il se présente sous la forme d’un popup. On peut alors sélectionner plusieur
 
 ![Capture d’écran 2024-07-11 à 15.42.28.png](imgs/Capture_decran_2024-07-11_a_15.42.28.png)
 
-# Header
+## Les composants
+
+### Header
 
 Le header se trouve dans la page **`Composant`**.
 
 ![Capture d’écran 2024-07-11 à 16.24.02.png](imgs/Capture_decran_2024-07-11_a_16.24.02.png)
 
-<aside>
-☝ Le header est basé sur celui initialisé en front. Il est difficilement éditable. en cas de demande particulière (logo au milieu), demander la faisabilité à un intégrateur.
+> [!NOTE]
+> Le header est basé sur celui initialisé en front. Il est difficilement éditable. en cas de demande particulière (logo au milieu), demander la faisabilité à un intégrateur.
 
-</aside>
-
-## Réglages globales
+#### Réglages globales
 
 En cliquant sur le composant Header, on peut rapidement le configurer grace à ses propriétés :
 
@@ -173,7 +164,7 @@ Pour modifier une propriété, il suffit de cliquer sur le petit symbole suivant
 
 ![Untitled](imgs/Untitled.png)
 
-## Réglages locaux
+#### Réglages locaux
 
 On peut également modifier l’une ou l’autre version du header en cliquant sur l’élément à modifier. Le cas typique est la partie supérieure du header qui devient colorée, il faut alors rendre le texte et les pictos blancs.
 
@@ -183,22 +174,20 @@ Par exemple, pour modifier la couleur des logos des réseaux, on sélectionne le
 
 Pour les textes, on clique directement sur l’élément ou le groupe d’éléments et on modifie la couleur de manière classique.
 
-## Le logo
+#### Le logo
 
 Le logo est un cas complexe. Il utilise le composant `Logo` de la page **Initialisation**. Pour être sûr qu’il ne soit pas déformer, assurez-vous que les calques présents dans le composants soient bien en `Constraints : Scale` . On pourra ensuite faire un Reset Size et le redimensionner proportionnellement.
 
 Le logo est contenu dans un auto-layout avec le menu de navigation. Il faudra peut être recentrer le groupe dans la partie basse du header.
 
-# Le Footer
+### Le Footer
 
 Le footer se trouve également dans la page **`Composant`**.
 
 ![Capture d’écran 2024-07-11 à 16.57.07.png](imgs/Capture_decran_2024-07-11_a_16.57.07.png)
 
-<aside>
-☝ Comme le header, le footer est basé sur celui initialisé en front. La marque de fabrique Inleed requiert un footer de 4 colonnes. En cas de demande particulière, demander la faisabilité à un intégrateur.
-
-</aside>
+> [!NOTE]
+> Comme le header, le footer est basé sur celui initialisé en front. La marque de fabrique Inleed requiert un footer de 4 colonnes. En cas de demande particulière, demander la faisabilité à un intégrateur.
 
 En cliquant sur le composant `Footer`, on peut rapidement le configurer grace à ses propriétés :
 
@@ -209,7 +198,7 @@ En cliquant sur le composant `Footer`, on peut rapidement le configurer grace à
 
 ![Capture d’écran 2024-07-11 à 16.58.57.png](imgs/Capture_decran_2024-07-11_a_16.58.57.png)
 
-# Les Boutons
+### Les Boutons
 
 Les boutons se trouvent dans la page `Composants`.
 
@@ -223,7 +212,7 @@ On retrouve dans la section Boutons plusieurs composants utiles.
 - **Les Liens** : ils s’utilisent pour afficher un lien de manière moins importante qu’un bouton. Il utilise le style de texte Bouton et possède une flèche modifiable (c’est une icône Font-Awesome).
 - **Slide - Dots** : ce sont les points qui affichent le nombres d’éléments dans un carousel. Il utilise le composant `Slide - Dot` qui définie la taille d’un point. Les couleurs sont modifié dans le composant `Slide - Dots`
 
-# Les Titres
+### Les Titres
 
 Les titres se trouvent dans la page `Composants`.
 
@@ -234,12 +223,10 @@ On retrouve dans cette section plusieurs composants :
 - **Les Titres** : c’est le composant principal qui définie l’aspect des titres H2. Il est composé de trois éléments : un texte de style H2, un de style Sous-titre et un composant `Filet`. Il possède 4 variants différenciants son orientation (*Alignement*) et sa couleur (*Couleur*). L’alignement règle automatiquement l’auto-layout à gauche ou au centre (pas à droite, c’est interdit par la police du design). La couleur prévoit le titre en version blanche, pour utiliser sur les sections parallaxe, tiles ou ayant background coloré.
 - **Le Filet** : le filet est un élément graphique offrant une séparation sous (ou au dessus) le titre. Il est composé des composants `Trait` et `Icone`. On peut le remplacer dans le composant `Titre` par `Icone` seul ou le `Trait` seul.
 
-<aside>
-☝ Pour des titres équilibrés, pensez à régler le gap entre les éléments textes et le filet qui composent le titre, mais aussi à faire attention à l’interlignage. Tous dépends des fonts utilisées.
+> [!NOTE]
+> Pour des titres équilibrés, pensez à régler le gap entre les éléments textes et le filet qui composent le titre, mais aussi à faire attention à l’interlignage. Tous dépends des fonts utilisées.
 
-</aside>
-
-# BDD
+### BDD
 
 Certains items BDD sont déjà initialisés avec les style de textes et les variables de couleurs du projet. Ils sont eux même utilisés dans les sections existantes dans la page `Sections`. On évitera donc d’éditer les instances, mais bien le composant de la page `Composants`.
 
