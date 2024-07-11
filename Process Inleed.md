@@ -11,13 +11,11 @@
 Pour commencer une maquette, le graphiste doit se créer un compte sur [Figma](https://www.figma.com/signup) avec son adresse mail Inleed. Figma est un logiciel de design collaboratif gratuit.
 
 ### Inpro
-Pour importer et exporter les maquettes, nous utilisons le logiciel Inpro, créé spécialement pour cette tache par Stéphane.
+Pour importer et exporter les maquettes, nous utilisons le logiciel Inpro, créé spécialement pour cette tache par Stéphane. Il devra au préalable être configuré rigoureusement pour se brancher vers les dossiers disponibles dans le Drive.
+
+#### Configurer Inpro
 
 ## Importer un nouveau dossier
-
-### Configurer Inpro
-
-### Importer le dossier
 
 ## Créer la maquette Figma
 
