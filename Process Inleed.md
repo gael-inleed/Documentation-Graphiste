@@ -1,7 +1,6 @@
 # Processus de design Inleed
 
-Auteurs : Gael Bonneau
-Edition : Stéphane Renault et Audrey Delhumeau
+**Auteurs** : Gael Bonneau • **Edition** : Stéphane Renault et Audrey Delhumeau
 
 > [!NOTE]
 >Ce document a pour but de retracer le processus de maquettage des sites Inleed.
@@ -22,6 +21,9 @@ Pour importer et exporter les maquettes, nous utilisons le logiciel Inpro, cré�
 
 ## Créer la maquette Figma
 
-### Aperçu du template
+Pour commencer la maquette d'un nouveau dossier, il faut dupliquer le Template de la Team **In • Production** et le renommer par l'identifiant et le nom du dossier (on laisse la sytaxe à l'appréciation du graphiste). Il faut ensuite le déplacer dans son propre Draft afin de laisser la place dans l'équipe (à cause de la version gratuite).
+
 > [!NOTE]
 > Pour avoir un tour d'horizon de notre template Figma, consultez la page [Aperçu du Template Figma](/Aperçu%20du%20template%20Figma.md)
+
+On peut maintenant designer ! :thumbs-up:
