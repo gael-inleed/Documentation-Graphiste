@@ -3,13 +3,16 @@
 Auteurs : Gael Bonneau
 Edition : Stéphane Renault et Audrey Delhumeau
 
-> [!IMPORTANT]
+> [!NOTE]
 >Ce document a pour but de retracer le processus de maquettage des sites Inleed.
->Lors de notre process nous utilisons les logiciels Inpro (logiciel interne) et [Figma](https://www.figma.com).
+>Lors de notre process nous utilisons les logiciels Inpro (logiciel interne), Figma, Photoshop ou Illustrator.
 
-## Figma
+## Logiciels utilisés
+### Figma
+Pour commencer une maquette, le graphiste doit se créer un compte sur [Figma](https://www.figma.com/signup) avec son adresse mail Inleed. Figma est un logiciel de design collaboratif gratuit.
 
-## Inpro
+### Inpro
+Pour importer et exporter les maquettes, nous utilisons le logiciel Inpro, créé spécialement pour cette tache par Stéphane.
 
 ## Importer un nouveau dossier
 

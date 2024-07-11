@@ -34,10 +34,7 @@ Une fois le panneau ouvert, les variables se présentent ainsi :
 
 ![Capture d’écran 2024-07-11 à 12.27.02.png](imgs/Capture_decran_2024-07-11_a_12.27.02.png)
 
-> [!NOTE]
-> Pour modifier les variables, on édite le contenu du champs “Value” correspondant.
-
-On peut alors renseigner les **informations** de base telles que le nom, le mail etc, puis les différentes pages qui formeront la navigation (**pagination**).
+Pour modifier les variables, on édite le contenu du champs “Value” correspondant. On peut alors renseigner les **informations** de base telles que le nom, le mail etc, puis les différentes pages qui formeront la navigation (**pagination**).
 
 Parfois, on doit ajouter des pages ou d’autres informations telles qu’un second numéro de téléphone. Le plus simple pour cela est de dupliquer une variable existante via un clic droit.
 
@@ -52,13 +49,7 @@ Toutes ces valeurs vont servir à remplir le header et le footer automatiquement
 
 Les variables de couleurs sont divisées en 2 sections : les couleurs du projets et celles par défaut.
 
-Les couleurs du projet sont définies par la charte du client, si elle existe, sinon c’est au graphiste de la définir. 
-
-La couleur `Défaut` correspond à la couleur des paragraphes du site et de tous les textes par défaut.
-
-Les couleurs `mc`, `sc`, `tc` correspondent aux couleurs du clients, et peuvent être utilisées sur les titres, les boutons, background etc.
-
-`mcl`, `mcd`, `scl`, `scd`, `tcl`, `tcd` correspondent à des variantes de `mc`, `sc`, `tc` ; *l pour lighten et d pour darken.*
+Les couleurs du projet sont définies par la charte du client, si elle existe, sinon c’est au graphiste de la définir. La couleur `Défaut` correspond à la couleur des paragraphes du site et de tous les textes par défaut. Les couleurs `mc`, `sc`, `tc` correspondent aux couleurs du clients, et peuvent être utilisées sur les titres, les boutons, background etc. `mcl`, `mcd`, `scl`, `scd`, `tcl`, `tcd` correspondent à des variantes de `mc`, `sc`, `tc` ; *l pour lighten et d pour darken.*
 
 ### Les Utiles (Projets)
 
@@ -66,9 +57,7 @@ Les couleurs `mc`, `sc`, `tc` correspondent aux couleurs du clients, et peuvent 
 
 Les variables utiles permettent de définir certains aspects récurrents d’un design (ex bords arrondis, épaisseur des traits, padding).
 
-Ainsi `Radius Bouton` et `Radius BDD` permettent de définir l’arrondis appliqué aux boutons, cards, items BDD etc. 
-
-La variable `stroke` permet de définir une taille de bordure ou de trait, comme ceux présents dans le filet  sous les titres.
+Ainsi `Radius Bouton` et `Radius BDD` permettent de définir l’arrondis appliqué aux boutons, cards, items BDD etc. La variable `stroke` permet de définir une taille de bordure ou de trait, comme ceux présents dans le filet  sous les titres.
 
 > [!NOTE]
 > On voit sur la capture précédente que le `Radius Bouton` contient une autre variable en tant que valeur. C’est ce que Figma appelle un alias. 
@@ -79,10 +68,7 @@ La variable `stroke` permet de définir une taille de bordure ou de trait, comme
 
 Les variables de Polices permettent de gérer les fonts utilisées pour la maquette. 
 
-`mf`, `sf` et `tf` doivent comporter les noms des fonts, tels que la liste des polices de Figma les affiche (attention à l’orthographe). Communément, `mf` *(pour main-font)* correspond à la police des textes par défaut et `sf` *(pour second-font)* à celle des titres. `tf` lui est facultatif mais permet d’ajouter au besoin un troisième font *(third-font)*.
-
-> [!NOTE]
-> Si une variable de police n’a pas besoin d’être définie, comme `tf` par exemple, elle prendra la value Aucune.
+`mf`, `sf` et `tf` doivent comporter les noms des fonts, tels que la liste des polices de Figma les affiche (attention à l’orthographe donc). Communément, `mf` *(pour main-font)* correspond à la police des textes par défaut et `sf` *(pour second-font)* à celle des titres. `tf` lui est facultatif mais permet d’ajouter au besoin une troisième font *(third-font)*. Si une variable de police n’a pas besoin d’être définie, comme `tf` par exemple, elle prendra la value Aucune.
 
 `rg` et `bd` définissent les graisses utilisées respectivement pour les textes par défaut et en gras. Là encore, attention à l’orthographe des values, d’autant que certaines fonts n’ont pas forcément une version semibold ou extrabold par exemple.
 
@@ -94,7 +80,7 @@ Les variables qui composent le groupe Défaut sont définies selon la partie fro
 
 Les **Couleurs** sont le noir absolue et le blanc absolue. 
 
-Les variables de **Colonne** sont les dimensions de chaque colonne de la grille utilisé. Elle permettent de définir les largeurs des images des colonnes de textes ou de n’importe quels éléments dans un container.
+Les variables de **Colonne** sont les dimensions de chaque colonne de la grille utilisé (col-1, col-2, col-3 etc). Elle permettent de définir les largeurs des images ou des colonnes de textes ou de n’importe quels éléments dans un container.
 
 Les **Marges** sont des valeurs utilisées pour espacer des éléments entre eux. Elles peuvent être appelées pour gérer le gap d’un auto-layout ou même les padding d’un éléments.
 
@@ -106,16 +92,11 @@ Les variables de **Radius** fixent des valeurs absolues utiles pour créer rapid
 
 ## Styles de Texte
 
-> [!NOTE]
-> Les styles de texte sont accessibles via le panneau droit de Figma. (lorsqu’aucun calque n’est sélectionné).
-
-Ils permettent de définir l’aspect des différents éléments textuels du site (paragraphes, H1, H2 etc). Ainsi, ils sont organisés selon leur contexte d’utilisation (Slider, Titres etc). 
-
-Les styles Icônes utilisent la police d’icônes Font-Awesome. On évite de les modifier.
+Les styles de texte sont accessibles via le panneau droit de Figma. (lorsqu’aucun calque n’est sélectionné). Ils permettent de définir l’aspect des différents éléments textuels du site (paragraphes, H1, H2 etc). Ainsi, ils sont organisés selon leur contexte d’utilisation (Slider, Titres etc). Les styles **Icônes** utilisent la police d’icônes Font-Awesome, on évite de les modifier.
 
 ![Capture d’écran 2024-07-11 à 15.29.17.png](imgs/Capture_decran_2024-07-11_a_15.29.17.png)
 
-Pour **modifier un style**, il existe deux façon de faire :
+Pour **modifier un style**, il existe deux façons de faire :
 
 Via le panneau latéral droit de Figma (comme indiqué précédemment), un bouton **Edit Text Style** à coté de chaque style permet d’ouvrir le panneau d’édition.
 
@@ -127,9 +108,7 @@ En sélectionnant directement un calque utilisant un style de texte, on peut éd
 
 ### Batch Styler
 
-Pour pouvoir modifier plusieurs styles à la fois, on utilise le plugin **Batch Styler**, accessible via le menu des plugins :
-
-[Figma Batch Styler: Multi-Style Plugin for Figma](https://jansix.at/resources/figma-batch-styler?ref=batch-styler-plugin)
+Pour pouvoir modifier plusieurs styles à la fois, on utilise le plugin [**Batch Styler**](https://jansix.at/resources/figma-batch-styler?ref=batch-styler-plugin), accessible via le menu des plugins de Figma.
 
 Il se présente sous la forme d’un popup. On peut alors sélectionner plusieurs styles et leur appliquer une même police, taille, etc (attention, il n’utilise pas les variables de police). On valide en cliquant sur Update Style.
 
@@ -139,7 +118,7 @@ Il se présente sous la forme d’un popup. On peut alors sélectionner plusieur
 
 ### Header
 
-Le header se trouve dans la page **`Composant`**.
+Le header se trouve dans la page **`Composants`**.
 
 ![Capture d’écran 2024-07-11 à 16.24.02.png](imgs/Capture_decran_2024-07-11_a_16.24.02.png)
 
@@ -182,7 +161,7 @@ Le logo est contenu dans un auto-layout avec le menu de navigation. Il faudra pe
 
 ### Le Footer
 
-Le footer se trouve également dans la page **`Composant`**.
+Le footer se trouve également dans la page **`Composants`**.
 
 ![Capture d’écran 2024-07-11 à 16.57.07.png](imgs/Capture_decran_2024-07-11_a_16.57.07.png)
 
@@ -223,12 +202,12 @@ On retrouve dans cette section plusieurs composants :
 - **Les Titres** : c’est le composant principal qui définie l’aspect des titres H2. Il est composé de trois éléments : un texte de style H2, un de style Sous-titre et un composant `Filet`. Il possède 4 variants différenciants son orientation (*Alignement*) et sa couleur (*Couleur*). L’alignement règle automatiquement l’auto-layout à gauche ou au centre (pas à droite, c’est interdit par la police du design). La couleur prévoit le titre en version blanche, pour utiliser sur les sections parallaxe, tiles ou ayant background coloré.
 - **Le Filet** : le filet est un élément graphique offrant une séparation sous (ou au dessus) le titre. Il est composé des composants `Trait` et `Icone`. On peut le remplacer dans le composant `Titre` par `Icone` seul ou le `Trait` seul.
 
-> [!NOTE]
+> [!TIP]
 > Pour des titres équilibrés, pensez à régler le gap entre les éléments textes et le filet qui composent le titre, mais aussi à faire attention à l’interlignage. Tous dépends des fonts utilisées.
 
 ### BDD
 
-Certains items BDD sont déjà initialisés avec les style de textes et les variables de couleurs du projet. Ils sont eux même utilisés dans les sections existantes dans la page `Sections`. On évitera donc d’éditer les instances, mais bien le composant de la page `Composants`.
+Certains items BDD sont déjà initialisés avec les styles de textes et les variables de couleurs du projet. Ils sont eux même utilisés dans les sections existantes dans la page `Sections`. On évitera donc d’éditer les instances, mais bien le composant de la page `Composants`.
 
 ![Capture d’écran 2024-07-11 à 20.59.46.png](imgs/Capture_decran_2024-07-11_a_20.59.46.png)
 
