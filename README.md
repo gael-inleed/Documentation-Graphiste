@@ -43,3 +43,5 @@ Pour commencer la maquette d'un nouveau dossier, il faut dupliquer le Template d
 > Pour avoir un tour d'horizon de notre template Figma, consultez la page [Aperçu du Template Figma](/Aperçu%20du%20template%20Figma.md)
 
 On peut maintenant designer !
+
+[letsgo.gif](gifs/letsgo.gif)
