@@ -1,10 +1,18 @@
 # Processus de design Inleed
 
-**Auteurs** : Gael Bonneau • **Edition** : Stéphane Renault et Audrey Delhumeau
+**Auteurs** : Gael Bonneau
+**Edition** : Stéphane Renault et Audrey Delhumeau
 
 > [!NOTE]
 >Ce document a pour but de retracer le processus de maquettage des sites Inleed.
->Lors de notre process nous utilisons les logiciels Inpro (logiciel interne), Figma, Photoshop ou Illustrator.
+
+## Table des matières
+- [Logiciels utilisés](#logiciels-utilisés)
+  - [Figma](#figma)
+  - [Inpro](#inpro)
+    - [Configurer Inpro](#configurer-inpro)
+- [Importer un nouveau dossier](#importer-un-nouveau-dossier)
+- [Créer la maquette](#creer-la-maquette)
 
 ## Logiciels utilisés
 ### Figma
