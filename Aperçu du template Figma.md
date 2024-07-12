@@ -9,7 +9,7 @@
 
 Le template se décompose en plusieurs pages.
 
-![Capture d’écran 2024-07-11 à 16.17.33.png](imgs/Capture_decran_2024-07-11_a_16.17.33.png)
+![template-img-1.png](imgs/template-img-1.png)
 
 La page **`Cover`** permet de créer l’aperçu du fichier dans le Draft. Il utilise les variables `mc` (la couleur principale du projet), `Nom du site`, `Assistante Co` et `Graphiste`.
 
@@ -32,7 +32,7 @@ Les variables définissent certaines informations ou valeurs qui vont faciliter 
 
 Une fois le panneau ouvert, les variables se présentent ainsi :
 
-![Capture d’écran 2024-07-11 à 12.27.02.png](imgs/Capture_decran_2024-07-11_a_12.27.02.png)
+![template-img-2.png](imgs/template-img-2.png)
 
 Pour modifier les variables, on édite le contenu du champs “Value” correspondant. On peut alors renseigner les **informations** de base telles que le nom, le mail etc, puis les différentes pages qui formeront la navigation (**pagination**).
 
@@ -45,7 +45,7 @@ Toutes ces valeurs vont servir à remplir le header et le footer automatiquement
 
 ### Les couleurs (Projet)
 
-![Capture d’écran 2024-07-11 à 14.13.22.png](imgs/Capture_decran_2024-07-11_a_14.13.22.png)
+![template-img-2.png](imgs/template-img-3.png)
 
 Les variables de couleurs sont divisées en 2 sections : les couleurs du projets et celles par défaut.
 
@@ -53,7 +53,7 @@ Les couleurs du projet sont définies par la charte du client, si elle existe, s
 
 ### Les Utiles (Projets)
 
-![Capture d’écran 2024-07-11 à 14.32.58.png](imgs/Capture_decran_2024-07-11_a_14.32.58.png)
+![template-img-4.png](imgs/template-img-4.png)
 
 Les variables utiles permettent de définir certains aspects récurrents d’un design (ex bords arrondis, épaisseur des traits, padding).
 
@@ -94,17 +94,17 @@ Les variables de **Radius** fixent des valeurs absolues utiles pour créer rapid
 
 Les styles de texte sont accessibles via le panneau droit de Figma. (lorsqu’aucun calque n’est sélectionné). Ils permettent de définir l’aspect des différents éléments textuels du site (paragraphes, H1, H2 etc). Ainsi, ils sont organisés selon leur contexte d’utilisation (Slider, Titres etc). Les styles **Icônes** utilisent la police d’icônes Font-Awesome, on évite de les modifier.
 
-![Capture d’écran 2024-07-11 à 15.29.17.png](imgs/Capture_decran_2024-07-11_a_15.29.17.png)
+![template-img-5.png](imgs/template-img-5.png)
 
 Pour **modifier un style**, il existe deux façons de faire :
 
 Via le panneau latéral droit de Figma (comme indiqué précédemment), un bouton **Edit Text Style** à coté de chaque style permet d’ouvrir le panneau d’édition.
 
-![Capture d’écran 2024-07-11 à 15.33.24.png](imgs/Capture_decran_2024-07-11_a_15.33.24.png)
+![template-img-6.png](imgs/template-img-6.png)
 
 En sélectionnant directement un calque utilisant un style de texte, on peut éditer le style via la même fenêtre.
 
-![Capture d’écran 2024-07-11 à 15.39.25.png](imgs/Capture_decran_2024-07-11_a_15.39.25.png)
+![template-img-7.png](imgs/template-img-7.png)
 
 ### Batch Styler
 
@@ -112,7 +112,7 @@ Pour pouvoir modifier plusieurs styles à la fois, on utilise le plugin [**Batch
 
 Il se présente sous la forme d’un popup. On peut alors sélectionner plusieurs styles et leur appliquer une même police, taille, etc (attention, il n’utilise pas les variables de police). On valide en cliquant sur Update Style.
 
-![Capture d’écran 2024-07-11 à 15.42.28.png](imgs/Capture_decran_2024-07-11_a_15.42.28.png)
+![template-img-8.png](imgs/template-img-8.png)
 
 ## Les composants
 
@@ -120,7 +120,7 @@ Il se présente sous la forme d’un popup. On peut alors sélectionner plusieur
 
 Le header se trouve dans la page **`Composants`**.
 
-![Capture d’écran 2024-07-11 à 16.24.02.png](imgs/Capture_decran_2024-07-11_a_16.24.02.png)
+![template-img-9.png](imgs/template-img-9.png)
 
 > [!NOTE]
 > Le header est basé sur celui initialisé en front. Il est difficilement éditable. en cas de demande particulière (logo au milieu), demander la faisabilité à un intégrateur.
@@ -137,11 +137,11 @@ En cliquant sur le composant Header, on peut rapidement le configurer grace à s
 - **Sous-Page** affiche ou masque le composant qui permet de regrouper plusieurs pages contenu. Il utilise le composant `Sous-Page`
 - **Séparation** offre la possibilité d’ajouter des éléments entre chaque page de la navigation. Il utilise le composant `Header - Séparation`.
 
-![Capture d’écran 2024-07-11 à 16.42.05.png](imgs/Capture_decran_2024-07-11_a_16.42.05.png)
+![template-img-10.png](imgs/template-img-10.png)
 
 Pour modifier une propriété, il suffit de cliquer sur le petit symbole suivant :
 
-![Untitled](imgs/Untitled.png)
+![template-img-1](imgs/template-img-11.png)
 
 #### Réglages locaux
 
@@ -149,7 +149,7 @@ On peut également modifier l’une ou l’autre version du header en cliquant s
 
 Par exemple, pour modifier la couleur des logos des réseaux, on sélectionne le composant `Réseaux Sociaux` Alors dans le panneau droit, on peux activer la version monochrome.
 
-![Untitled](imgs/Untitled%201.png)
+![template-img-12](imgs/template-img-12.png)
 
 Pour les textes, on clique directement sur l’élément ou le groupe d’éléments et on modifie la couleur de manière classique.
 
@@ -163,7 +163,7 @@ Le logo est contenu dans un auto-layout avec le menu de navigation. Il faudra pe
 
 Le footer se trouve également dans la page **`Composants`**.
 
-![Capture d’écran 2024-07-11 à 16.57.07.png](imgs/Capture_decran_2024-07-11_a_16.57.07.png)
+![template-img-13.png](imgs/template-img-13.png)
 
 > [!NOTE]
 > Comme le header, le footer est basé sur celui initialisé en front. La marque de fabrique Inleed requiert un footer de 4 colonnes. En cas de demande particulière, demander la faisabilité à un intégrateur.
@@ -175,13 +175,13 @@ En cliquant sur le composant `Footer`, on peut rapidement le configurer grace à
 - **Maps** permets d’afficher ou de masquer un aperçu de Google Maps. On l’utilise généralement lorsqu’il n’y a pas de newsletter.
 - **Plusieurs adresses** permet d’afficher ou de masquer des points sous la partie adresse, simulant un carousel présentant les différentes adresses du client. Il utilise le composant `Slides - Dots`.
 
-![Capture d’écran 2024-07-11 à 16.58.57.png](imgs/Capture_decran_2024-07-11_a_16.58.57.png)
+![template-img-14.png](imgs/template-img-14.png)
 
 ### Les Boutons
 
 Les boutons se trouvent dans la page `Composants`.
 
-![Capture d’écran 2024-07-11 à 17.19.57.png](imgs/Capture_decran_2024-07-11_a_17.19.57.png)
+![template-img-15.png](imgs/template-img-15.png)
 
 On retrouve dans la section Boutons plusieurs composants utiles.
 
@@ -195,7 +195,7 @@ On retrouve dans la section Boutons plusieurs composants utiles.
 
 Les titres se trouvent dans la page `Composants`.
 
-![Capture d’écran 2024-07-11 à 17.45.40.png](imgs/Capture_decran_2024-07-11_a_17.45.40.png)
+![template-img-16.png](imgs/template-img-16.png)
 
 On retrouve dans cette section plusieurs composants :
 
@@ -209,7 +209,7 @@ On retrouve dans cette section plusieurs composants :
 
 Certains items BDD sont déjà initialisés avec les styles de textes et les variables de couleurs du projet. Ils sont eux même utilisés dans les sections existantes dans la page `Sections`. On évitera donc d’éditer les instances, mais bien le composant de la page `Composants`.
 
-![Capture d’écran 2024-07-11 à 20.59.46.png](imgs/Capture_decran_2024-07-11_a_20.59.46.png)
+![template-img-17.png](imgs/template-img-17.png)
 
 - **Actualité** est le composant utilisé dans les sections BDD présentant les actualités. Basé sur le front, on évite de trop le modifier dans sa structure. Le titre de l’actualité doit toujours utiliser le style de texte `H3`. On peut cependant modifier les couleurs et le radius de la card.
 - **Logo Partenaire** est le composant utilisé dans les sections BDD présentant les partenaires ou marques des clients. Il est composé d’une image, celle du logo, qui peut être modifié sur ses instances. En indiquant la propriété Fit à l’image, on peut simuler le rendu réel du composant en front. Le background blanc du composant nous permets d’être sûr que les logos uploadé par les clients s’affichent correctement.
