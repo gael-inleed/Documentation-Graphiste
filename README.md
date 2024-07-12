@@ -44,4 +44,4 @@ Pour commencer la maquette d'un nouveau dossier, il faut dupliquer le Template d
 
 On peut maintenant designer !
 
-[letsgo.gif](gifs/letsgo.gif)
+![letsgo.gif](gifs/letsgo.gif)
