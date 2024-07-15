@@ -22,6 +22,18 @@ Pour commencer une maquette, le graphiste doit créer son compte sur [Figma](htt
 Pour importer et exporter les maquettes, nous utilisons le logiciel Inpro, créé spécialement pour cette tache par Stéphane. Il devra au préalable être configuré rigoureusement pour se brancher vers les dossiers disponibles dans le Drive.
 
 #### Configurer Inpro
+Pour se faire, lors de la première ouverture d’Inpro, un popup s’ouvre pour inviter l’utilisateur à configurer le logiciel. Par la suite, on peut toujours accéder à la fenêtre de configuration, en cliquant sur « Inpro » (à côté du logo Apple), dans la barre du haut puis « préférences… » on peut également utiliser le raccourci cmd (Command) + , (virgule) :
+
+![Accéder aux préférences](imgs/acces_preferences.png)
+
+La fenêtre se présente alors ainsi :
+
+![Fenêtre des préférences](imgs/fenetre_pref_inpro.jpg)
+
+##### Options d'import
+Dans un premier temps, on va sélectionner son nom dans la liste déroulante « graphiste ».
+
+
 
 ## Importer un nouveau dossier
 La première étape est de consulter l'extranet pour savoir quel dossier il faut importer.
