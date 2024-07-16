@@ -22,6 +22,50 @@ Pour commencer une maquette, le graphiste doit créer son compte sur [Figma](htt
 Pour importer et exporter les maquettes, nous utilisons le logiciel Inpro, créé spécialement pour cette tache par Stéphane. Il devra au préalable être configuré rigoureusement pour se brancher vers les dossiers disponibles dans le Drive.
 
 #### Configurer Inpro
+Pour se faire, lors de la première ouverture d’Inpro, un popup s’ouvre pour inviter l’utilisateur à configurer le logiciel. Par la suite, on peut toujours accéder à la fenêtre de configuration, en cliquant sur « Inpro » (à côté du logo Apple), dans la barre du haut puis « préférences… » on peut également utiliser le raccourci cmd (Command) + , (virgule) :
+
+![Accéder aux préférences](imgs/acces_preferences.png)
+
+La fenêtre se présente alors ainsi :
+
+![Fenêtre des préférences](imgs/fenetre_pref_inpro.jpg)
+
+##### Options d'import
+Dans un premier temps, on va sélectionner son nom dans la liste déroulante « graphiste ». Cela va préfixer le zip exporté avec les initiales du graphiste.
+
+![Configuration du chemin vers les dt](imgs/config_dt.jpg)
+
+Dans un second temps, on va cliquer sur le bouton « choisir » et aller récupérer le dossier qui contient les fichiers .zip déposés par les assistantes. C'est celui qui est synchronisé avec le dossier `1. Dossiers techniques` du Drive.
+
+Ensuite, on configure le dossier template export :
+
+![Configuration du dossier export](imgs/config_dossier_export.jpg)
+
+Ce dossier correspond à celui qui contient les fichiers de base et qui est nécessaire à la création du dossier de prod. Il faut donc impérativement, qu'il soit présent en local sur son ordinateur. Pour cela, on peut le télécharger via le lien présent sous le champs texte.
+On le configure de la même façon que pour le dossier des dt, en cliquant sur choisir puis en allant le chercher là où il a été enregistré.
+
+On peut continuer en configurant le dossier qui contient (ou va contenir) les dossiers de travail (celui contenant le dt, les img, etc.) :
+
+![Configuration du dossier de prod](imgs/config_dossiers_prod.jpg)
+
+Il dépend de l'organisation de chacun. La procédure de config est la même que précédement.
+
+Dans la partie « Après l'import », on peut laisser tout décoché car c'est devenu obsolète.
+
+On en arrive maintenant aux « Options d'export » :
+
+![Configuration de l'export](imgs/config_export.jpg)
+
+On coche tout sauf « Supprimer l'archive de DT » car il doit rester accessible aux devs back. Le chemin du dossier des « maquettes » doit pointer vers le dossier `2. Maquettes` du Drive.
+
+On termine sur les mises à jour de l'appli :
+
+![Configuration des mises à jour](imgs/config_update.jpg)
+
+Il vaut mieux le laisser coché, cela permet d'être averti lorsqu'une mise à jour est disponible.
+
+La configuration d'Inpro est terminée. On peut désormais commencer à importer des dossiers techniques.
+
 
 ## Importer un nouveau dossier
 La première étape est de consulter l'extranet pour savoir quel dossier il faut importer.
