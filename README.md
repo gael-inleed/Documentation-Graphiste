@@ -88,4 +88,33 @@ Pour commencer la maquette d'un nouveau dossier, il faut dupliquer le Template d
 
 On peut maintenant designer !
 
-![letsgo.gif](gifs/letsgo.gif)
+![LET'S GO !](gifs/letsgo.gif)
+
+
+## Faire valider la maquette
+
+Une fois la maquette terminée, et les calques renommés, il faut faire valider la maquette auprès de l'assistante co et de la direction. Assurez-vous donc avant d'envoyer la maquette, que vous n'avez rien oublié et que le DT est respecté.
+
+Exportez ensuite les pages créées en JPG dans le dossier `0000_nomdudossier/preview`. Pour cela sélectionnez tous les plans de travail, puis en bas à droite, cliquez sur "Export X layers" après avoir sélectionné le format JPG.
+
+![Exporter ue maquette](imgs/export-1.png)
+
+Une fois les plans de travail exportés, il faut encore exporter les slides du slider principal en page 1. Pour cela, dupliquez les variants qui ont servis à faire les slides. Renommez les en respectant l'ordre d'apparition des slides (ex : slide_1, slide_2, slide_3).
+
+À l'aide de la fonction "Renommer" du Finder, ajouter l'identifiant du projet (0000) avant chaque nom des pages et des slides.
+
+![Renommer plusieurs fichiers d'un coup](imgs/export-2.png)
+
+Envoyez ensuite les fichiers exportés dans le dossier Invision de l'assistante qui a réalisé le dossier, après avoir créé la section nommée *0000 - Nom du Dossier - Prénom du graphiste*
+
+Envoyez un mail à l'assitante, lui indiquant que la maquette est terminée et prête à être validée.
+
+```
+Sujet : [Maquette à Valider] - 0000 - Nom du dossier
+Message : Salut, Je viens de mettre les maquettes du dossier 0000 - Nom du dossier sur ton Invision pour validation. N’hésites pas à revenir vers moi si tu as une question.
+```
+
+Enfin, sur l'extranet, passez l'avancement du dossier à *Maquette en validation*.
+
+## Exporter la maquette
+
